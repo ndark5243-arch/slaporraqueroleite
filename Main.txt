@@ -12,16 +12,17 @@ local redzlib = {
 	Themes = {
 		Darker = {
 			Darker = {
+   Darker = {
     ["Color Hub 1"] = ColorSequence.new({
-        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), -- Branco no início
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(128, 128, 128)), -- Cinza no meio (transição suave)
-        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))        -- Preto no final
+        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)),       -- Preto total no início
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(100, 100, 100)), -- Cinza médio no meio
+        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))  -- Branco no final
     }),
-    ["Color Hub 2"] = Color3.fromRGB(20, 20, 20),   -- fundo quase preto
-    ["Color Stroke"] = Color3.fromRGB(200, 200, 200), -- contorno claro puxado pro branco
-    ["Color Theme"] = Color3.fromRGB(255, 255, 255), -- tema branco
-    ["Color Text"] = Color3.fromRGB(255, 255, 255),  -- texto branco bem claro
-    ["Color Dark Text"] = Color3.fromRGB(220, 220, 220) -- cinza bem clarinho
+    ["Color Hub 2"] = Color3.fromRGB(0, 0, 0),        -- fundo preto
+    ["Color Stroke"] = Color3.fromRGB(80, 80, 80),    -- contorno cinza
+    ["Color Theme"] = Color3.fromRGB(255, 255, 255),  -- tema branco
+    ["Color Text"] = Color3.fromRGB(255, 255, 255),   -- texto branco puro
+    ["Color Dark Text"] = Color3.fromRGB(200, 200, 200) -- texto cinza claro
 }
 		}
 	},
