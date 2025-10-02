@@ -11,19 +11,16 @@ local PlayerMouse = Player:GetMouse()
 local redzlib = {
 	Themes = {
 		Darker = {
-			Darker = {
-   Darker = {
-    ["Color Hub 1"] = ColorSequence.new({
-        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)),       -- Preto total no início
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(100, 100, 100)), -- Cinza médio no meio
-        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))  -- Branco no final
-    }),
-    ["Color Hub 2"] = Color3.fromRGB(0, 0, 0),        -- fundo preto
-    ["Color Stroke"] = Color3.fromRGB(80, 80, 80),    -- contorno cinza
-    ["Color Theme"] = Color3.fromRGB(255, 255, 255),  -- tema branco
-    ["Color Text"] = Color3.fromRGB(255, 255, 255),   -- texto branco puro
-    ["Color Dark Text"] = Color3.fromRGB(200, 200, 200) -- texto cinza claro
-}
+			["Color Hub 1"] = ColorSequence.new({
+    ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)),   -- Preto no início
+    ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 0, 0)),   -- Preto no meio
+    ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)) -- Branco no fim
+}),
+["Color Hub 2"] = Color3.fromRGB(0, 0, 0),          -- Fundo preto
+["Color Stroke"] = Color3.fromRGB(20, 20, 20),      -- Contorno cinza escuro
+["Color Theme"] = Color3.fromRGB(255, 255, 255),    -- Branco
+["Color Text"] = Color3.fromRGB(243, 243, 243),     -- Texto branco suave
+["Color Dark Text"] = Color3.fromRGB(180, 180, 180) -- Texto cinza claro
 		}
 	},
 	Info = {
